@@ -40,4 +40,14 @@ status_font = ctk.CTkFont(family="Arial", size=18, weight="bold")
 passwd_status = ctk.CTkLabel(root,textvariable=passwd_status_var,font=status_font)
 passwd_status.pack(pady=4)
 
+brand = ctk.CTkLabel(
+    root, 
+    text="Developed by Sukhmandeep Singh (TechWithSukhman)", 
+    font=ctk.CTkFont(family="Arial", size=18)
+)
+brand.pack(side="bottom", pady=15)
+
+root.mainloop()
+
+
 root.mainloop()
